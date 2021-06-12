@@ -8,13 +8,22 @@ This LMS however doesn't make use of all of the SCO field as to keep the LMS sim
 
 Be aware the SCORM 1.2 documentation is vague in places so I coded it to what I thought was best. There are non-documented errors in my version of SCORM 1.2 RTE due to the documentation lacking any guidance on how to deal with illegal values / ranges. Refer to the LMSSCORM12RTE.js for these additional error code.
 
-This LMS doesn't make any use of any 3rd party framework.
 <br/><br/>
 
 # SCORM 2004
 
 At this time, this SCORM 1.2 Run Time Engine (RTE) is not SCORM 2004 compatible. I believe it is missing a few fields in the Sharable Content Object (SCO). I've never actually seen the SCORM 2004 documentation so I have no idea what else is involved in getting this to work with this LMS. I've no plans in getting this to work for SCORM 2004 unless someone wants to commission me to write this. See Consulting and Customisation at the bottom of this document if you want me to implement SCORM 2004.
 <br/><br/>
+
+# Tech Stack
+
+This LMS doesn't make any use of any 3rd party framework.
+
+It requires MySQL or equivalent
+
+It doesn't use Smarty - It just use .tpl file extension for HTML template files.
+
+It uses PHP and Javascript
 
 # Installation
  
@@ -298,6 +307,9 @@ There are a couple of things that partly coded up but is not complete as in not 
 
     The short answer is you can't and that is due to the limitation to SCORM standard rather than my lack of implementation with this LMS. However that does not mean it is impossible using this LMS given that you can simply copy the new files over the old version and hope for the best. That method is not guarrenteed to work and can be unpredictable and in some cases cause random crashes. The outcome all depends on what the new version changes where. If you add/delete new pages or questions / change a question type / change the format of the book mark data e.t.c. then copying over old files will not end well. However, if you have just fixed spelling mistakes or replaced audio / video / images and leave the existing course structure intact then you should not encounter any problems. 
 <br/><br/>
+ 
+   * **My course won't load**
+     Your popup blocker is probably preventing it from launching.
 
 # Supporting Documentation
 [Technical details of SCORM RTE 1.2](http://xml.coverpages.org/SCORM-12-RunTimeEnv.pdf)
