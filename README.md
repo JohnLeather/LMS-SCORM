@@ -57,6 +57,7 @@ https://stackoverflow.com/questions/2900690/how-do-i-give-php-write-access-to-a-
  | super         | password      | Super admin   |
  | admin         | password      | Admin         |
  | student          | password      | Student       |
+ 
 <br/><br/>
 ### Different login roles have the following accessibility
 
@@ -309,6 +310,7 @@ There are a couple of things that partly coded up but is not complete as in not 
 <br/><br/>
  
    * **My course won't load**
+ 
      Your popup blocker is probably preventing it from launching.
 
 # Supporting Documentation
