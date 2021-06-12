@@ -64,7 +64,7 @@ https://stackoverflow.com/questions/2900690/how-do-i-give-php-write-access-to-a-
  | Upload Courses   |              |              | &check;           |
  | Debugging and Logging tools     |              |              | &check;              |
  
-<br/>
+<br><br/>
 # Password salt
 
 The passwords are salted for additional security. You need to change this value because the salt value should be a secret. Given that you've got this source code from github everyone knows your current secret salt password. In order to change this open up **/clib/cLib_Users.php** and search for SALT. 
