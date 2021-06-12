@@ -93,7 +93,7 @@ The Template (.TPL) files are HTML that are rendered for each page and are store
  | Template      | cViews/userLoginScreen.tpl      |
  | JavaScript    |js/loginLMSUserLogin.js|
  | PHP           |cModel/cUserLogin.php|            
-<br/>
+<br/><br/>
 ## Training Hub <span style="float:right;font-size:12px;color:blue;line-height:32px;vertical-align:top">/admin/traininghub</span>
 ![Training Hub](readme-images/training-hub.png)
  | Type          | path / file   |
