@@ -93,7 +93,8 @@ The Template (.TPL) files are HTML that are rendered for each page and are store
  | ------------- | ------------- |
  | Template      | cViews/userLoginScreen.tpl      |
  | JavaScript    |js/loginLMSUserLogin.js|
- | PHP           |cModel/cUserLogin.php|            
+ | PHP           |cModel/cUserLogin.php|      
+ 
 <br/><br/>
 ## Training Hub <span style="float:right;font-size:12px;color:blue;line-height:32px;vertical-align:top">/admin/traininghub</span>
 ![Training Hub](readme-images/training-hub.png)
@@ -102,6 +103,7 @@ The Template (.TPL) files are HTML that are rendered for each page and are store
  | Template      | cViews/trainingHub.tpl      |
  | JavaScript    | js/LMSScorm12RTE.js<br>js/LMSScormDebug.js      |
  | PHP           | cModel/cTrainingHub.php      |
+ 
 <br/><br/>
 ## Edit your details <span style="float:right;font-size:12px;color:blue;line-height:32px;vertical-align:top">/traininghub/edit-user-details</span>
 ![Main Menu](readme-images/edit-details.png)
@@ -111,6 +113,7 @@ The Template (.TPL) files are HTML that are rendered for each page and are store
  | Extension     | cLib/cLib_cPasswordManager.php         |
  | JavaScript    | js/LMSEditUserDetails.js           |
  | PHP           | cModel/cTrainingHubEditDetails.php |
+ 
 <br/><br/>
 ## Main Menu <span style="float:right;font-size:12px;color:blue;line-height:32px;vertical-align:top">/admin</span>
 ![Main Menu](readme-images/main-menu.png)
@@ -118,6 +121,7 @@ The Template (.TPL) files are HTML that are rendered for each page and are store
  | ------------- | ------------------------ |
  | Template      | cViews/adminMainMenu.tpl |
  | PHP           | cModel/cAdminMainMenu.php|
+ 
 <br/><br/>
 ## Manage Courses <span style="float:right;font-size:12px;color:blue;line-height:32px;vertical-align:top">/admin/upload-courses<span>
 ![Manage Courses](readme-images/manage-courses.png)
@@ -127,6 +131,7 @@ The Template (.TPL) files are HTML that are rendered for each page and are store
  | Template      | cViews/cAdminUploadCourses.php      |
  | JavaScript    | js/adminLMSUploadCourse.js      |
  | PHP           | cModel/adminUploadCourses.tpl      |
+ 
 <br/><br/>
 ## Edit Course Settings <span style="float:right;font-size:12px;color:blue;line-height:32px;vertical-align:top">/admin/edit-course/id/XXXX</span>
 ![Edit Course](readme-images/edit-course.png)
@@ -136,6 +141,7 @@ The Template (.TPL) files are HTML that are rendered for each page and are store
  | Extension     | cLib/cLib_cCourseSupport.php            |
  | JavaScript<br><br><br>| js/adminLMSEditCourseDetails.js<br>js/LMSScorm12RTE.js<br>js/LMSScormDebug.js|
  | PHP           | cModel/cAdminEditCourse.php      |
+ 
 <br/><br/>
 ## View Users <span style="float:right;font-size:12px;color:blue;line-height:32px;vertical-align:top">/admin/view-users/page/1/order/name/in/asc</span>
 ![View / Edit Users](readme-images/view-edit-user.png)
@@ -144,6 +150,7 @@ The Template (.TPL) files are HTML that are rendered for each page and are store
  | Template      | cViews/adminViewUsers.tpl      |
  | JavaScript    | js/adminLMSModuleReports.js|
  | PHP           | cModel/cAdminViewUsers.php      |
+ 
 <br/><br/>
 ## Edit User Record <span style="float:right;font-size:12px;color:blue;line-height:32px;vertical-align:top">/admin/edit-user/page/1/order/name/in/asc/id/XXXX</span>
 ![Edit Users](readme-images/edit-user-record.png)
@@ -154,6 +161,7 @@ The Template (.TPL) files are HTML that are rendered for each page and are store
   | Extension     | cLib/cLib_cPasswordManager.php |
  | JavaScript    | js/LMSEditUserDetails.js |
  | PHP<br/><br/>| cModel/adminEditAnotherUserDetails.tpl<br/>cModel/adminDeletedUserDetails.tpl |
+ 
 <br/><br/>
 ## View Module Reports <span style="float:right;font-size:12px;color:blue;line-height:32px;vertical-align:top">/admin/view-module-reports/page/1/order/name/in/asc</span>
 ![View / Edit Users](readme-images/view-module-reports.png)
@@ -163,6 +171,7 @@ The Template (.TPL) files are HTML that are rendered for each page and are store
  | Template      | cViews/adminViewModuleReports.tpl  |
  | JavaScript    | js/adminLMSModuleReports.js        |
  | PHP           | cModel/cAdminViewModuleReports.php |
+ 
 <br/><br/>
 ## Edit Password <span style="float:right;font-size:12px;color:blue;line-height:32px;vertical-align:top">/admin/view-module-reports/page/1/order/name/in/asc</span>
 ![Edit Password](readme-images/password.png)
@@ -173,6 +182,7 @@ The Template (.TPL) files are HTML that are rendered for each page and are store
  | Extension     | cLib/cLib_cPasswordManager            |
  | JavaScript    | js/LMSEditUserDetails.js      |
  | PHP           | cModel/cAdminSetAdminPassword.php      |
+ 
 <br/><br/>
 ## Set LMS Settings <span style="float:right;font-size:12px;color:blue;line-height:32px;vertical-align:top">/admin/settings</span>
 ![Edit Password](readme-images/LMS-settings.png)
@@ -182,6 +192,7 @@ The Template (.TPL) files are HTML that are rendered for each page and are store
  | Template      | cViews/adminSettings.tpl      |
  | Javascript    | js/adminLMSSettings.js      |
  | PHP           | cModel/cAdminSetSettings.php      |
+ 
 <br/><br/>
 # Debugging Tools
 
