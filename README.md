@@ -47,7 +47,7 @@ https://stackoverflow.com/questions/2900690/how-do-i-give-php-write-access-to-a-
  | ------------- | ------------- | ------------- |
  | super         | password      | Super admin   |
  | admin         | password      | Admin         |
- | user          | password      | Student       |
+ | student          | password      | Student       |
 <br/><br/>
 ### Different login roles have the following accessibility
 
