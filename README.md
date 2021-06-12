@@ -67,19 +67,22 @@ https://stackoverflow.com/questions/2900690/how-do-i-give-php-write-access-to-a-
 <br><br/>
 # Password salt
 
-The passwords are salted for additional security. You need to change this value because the salt value should be a secret. Given that you've got this source code from github everyone knows your current secret salt password. In order to change this open up **/clib/cLib_Users.php** and search for SALT. 
+The passwords are salted for additional security. You need to change this value because the SALT value should be a secret. Given that you've got this source code from github everyone knows your current secret SALT password. In order to change this open up **/clib/cLib_Users.php** and search for SALT. 
 
     const   SALT = "9X643fAy25w83b8fxfde3!£98X76232";
 
-Change the salt string to a similar complex string of mixed characters - Be as complex as you like as you do not need to remember this.
+Change the SALT string to a similar complex string of mixed characters - Be as complex as you like as you do not need to remember this.
 
-You should only change the SALT value once and before you start adding new user into the system. You cannot change the SALT after you have added new users to the system as their password won't work.
-<br/><br/>
-**<span style="color:red">Password Warning</span>**
+You MUST only change the SALT value once and before you start adding new user into the system. You cannot change the SALT after you have added new users to the system as their password won't work with a constantly changing SALT.
 
 The above default passwords are weak and should be changed as soon as possible. **Before you do this, please setup the Password salt first**.
 
 Login as each admin or super admin and change the password via the admin menu. For students, you can edit their password via the Add / Edit User menu option and click on their name.
+
+**<span style="color:red">Password reset warning</span>**
+<br/><br/>
+When you change the SALT, the LMS will know it had been changed and it will reset the Admin and Super Admin password to "password". It does this so you aren't locked out of the LMS. You will have to change these login to a better password as soon as you change the SALT.
+
 <br/><br/>
 # Screenshot and files
 
