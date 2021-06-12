@@ -1,0 +1,1740 @@
+body {
+    background                          : -webkit-linear-gradient(top, #bcbbff, #fff8bb);
+    background                          : -o-linear-gradient(bottom, #bcbbff, #fff8bb);
+    background                          : -moz-linear-gradient(bottom, #bcbbff, #fff8bb);
+    background                          : linear-gradient(to bottom, #bcbbff, #fff8bb);
+    background                          : -webkit-linear-gradient(top, #bcbbff, #fff8bb);
+    background                          : -o-linear-gradient(bottom, #bcbbff, #fff8bb);
+    background                          : -moz-linear-gradient(bottom, #bcbbff, #fff8bb);
+    background                          : linear-gradient(to bottom, #bcbbff, #fff8bb);
+    font-family                         : sans-serif, Arial, Helvetica;
+    color                               : #292e35;
+    padding                             : 0px;
+    margin                              : 0px;
+    font-size                           : 14px;
+    line-height                         : 18px;
+    -webkit-box-sizing                  : border-box;
+    -moz-box-sizing                     : border-box;
+    box-sizing                          : border-box;
+}
+
+.bodyContent {
+    display                             : flex;
+    align-items                         : center;
+    min-height                          : calc(100vh) !important;
+    position                            : relative;
+}
+
+.contentBody {
+    position                            : relative;
+    
+}
+
+.hyper-jump-page {
+    position                            : absolute;
+    right                               : 50px;
+    text-align                          : right;
+    bottom                              : 40px;
+    z-index                             : 500;
+}
+
+.admin-menu ul {
+    list-style-position                 : inside;
+    margin-left                         : 0px;
+    padding-left                        : 0px;
+}
+
+
+.container {
+    background-color                    : rgba(255, 255, 255, 0.5);
+    max-width                           : 1014px;
+    min-height                          : 678px;
+    text-align                          : left;
+    margin-left                         : auto;
+    margin-right                        : auto;
+    max-width                           : 1014px !important;
+    width                               : 100%;
+    -webkit-box-shadow                  : 0px 0px 37px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow                     : 0px 0px 37px 0px rgba(0,0,0,0.75);
+    box-shadow                          : 0px 0px 37px 0px rgba(0,0,0,0.75);
+    position                            : relative;
+}
+
+.admin-menu li {
+    list-style                          : none;
+}
+
+.admin-menu li a {
+    text-decoration                     : none;
+}
+
+.admin-menu li div {
+    padding-bottom                      : 10px;
+    text-align                          : center;
+    width                               : 100% !important;
+    margin-left                         : 0px;
+}
+
+.button,
+input[type=button],
+input[type=submit] {
+    line-height                         : 16px;
+    display                             : inline-block !important;
+    padding                             : 10px 35px;
+    background-color                    : rgba(150, 240, 220, 0.50);
+    cursor                              : pointer;
+    margin                              : 0px 5px;
+    font-weight                         : normal;
+    font-size                           : 14px;
+    border-radius                       : 8px;
+    font-family                         : arial;
+    color                               : black;
+    text-decoration                     : none;
+    border                              : solid 1px rgba(0,0,0,0.25);
+    box-shadow                          : rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+input[type=button].right-arrow-icon,
+input[type=submit].right-arrow-icon,
+.button.right-arrow-icon {
+    background-image                    : url(images/right_arrow.png);
+    background-position                 : right 10px top 50%;
+    background-repeat                   : no-repeat;
+}
+
+input[type=button].left-arrow-icon,
+input[type=submit].left-arrow-icon,
+.button.left-arrow-icon {
+    background-image                    : url(images/left_arrow.png);
+    background-position                 : right 10px top 50%;
+    background-repeat                   : no-repeat;
+}
+
+
+input[type=button].cross-icon,
+input[type=submit].cross-icon,
+.button.cross-icon {
+    background-image                    : url(images/cross_icon.png);
+    background-position                 : right 10px top 50%;
+    background-repeat                   : no-repeat;
+}
+
+.disabled {
+    background-color                    : #cccccc !important;
+    color                               : #888888 !important;
+    cursor                              : default !important;
+}
+
+.logo img.logoIcon {
+    vertical-align                      : bottom;
+    width                               : 120px !important;
+    height                              : auto;
+}
+
+.logoWrapper {
+    float                               : left;
+}
+
+.logo {
+    padding                             : 25px 25px 25px 25px;
+    background                          : rgba(255, 255, 255, .2);
+    
+    border-bottom                       : 1px solid rgba(131, 128, 109, 0.1);
+}
+
+
+.logo .logoIcon {
+    float                               : left;
+    margin-right                        : 36px;
+}
+
+.logo .companyInfo {
+    float                               : left;
+    margin-left                         : 0px;
+    bottom                              : 0px;
+}
+
+.logo h1.title {
+    margin-top                          : 30px;
+    margin-bottom                       : 0px;
+    font                                : 36px 'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-weight                         : bold !important;
+    font-style                          : normal !important;
+}
+
+.logo h2.titleTagLine {
+    font                                : 20px 'Open Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-weight                         : normal !important;
+    font-style                          : italic !important;
+    color                               : #FF4444 !important;
+    margin-top                          : 5px;
+    margin-bottom                       : 0px;
+}
+@media screen and (max-width: 600px) {
+    .logo {
+        float                           : none !important;
+    }
+    
+    .logo h1.title {
+        font-size                       : 6vw;
+    }
+    
+    .logo h2.titleTagLine {
+        font-size                       : 3.5vw;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .logo {
+        float                           : clear;
+    }
+    
+    .logo h1.title {
+        font-size                       : 16px;
+    }
+    
+    .logo h2.titleTagLine {
+        font-size                       : 14px;
+    }
+}
+
+
+.prompt-user {
+    text-align                          : center;
+}
+
+.prompt-user,
+.goldInstructionText {
+    color                               : #888800;
+}
+
+
+.prompt-user-container .prompt-user {
+    text-align                          : left;
+}
+
+.prompt-user-container {
+    width                               : 60%;
+    display                             : inline-block;
+    text-align                          : left;
+}
+
+.prompt-user-container p:last-child {
+    margin-bottom                       : 0px;
+}
+
+.no-paragraph-margin-top {
+    margin-top                          : 0px;
+}
+
+select {
+    margin-right                        : 0px !important;
+}
+
+table,tr,td,
+fieldset,
+label,
+textarea,
+submit,
+input,
+select,
+span,
+body,
+div {
+    -webkit-box-sizing                  : border-box;
+    -moz-box-sizing                     : border-box;
+    box-sizing                          : border-box;
+}
+
+@media screen and (min-width: 768px) {
+    .hub-button {
+        display                         : block !important;
+        
+    }
+}
+@media screen and (max-width: 769px) {
+    .hub-button {
+        display                         : inline-block !important;
+    }
+}
+
+.no-underline {
+    text-decoration                     : none;
+}
+
+.hub-button {
+    width                               : 160px;
+    margin-bottom                       : 10px;
+    
+}
+
+.event-message {
+    text-align                          : center;
+}
+
+.event-message div {
+    margin-top                          : 10px;
+    margin-bottom                       : 10px;
+    display                             : inline-block;
+    text-align                          : left;
+    padding                             : 10px;
+    
+}
+
+.event-message div.error {
+    background-color                    : rgba(255, 0, 0, 0.25);
+    border                              : solid 1px #cc0000;
+}
+
+.event-message div.success {
+    background-color                    : rgba(0, 255, 0, 0.25);
+    border                              : solid 1px #00cc00;
+}
+
+.form-wrapper  {
+    text-align                          : center;
+}
+
+
+.form-wrapper .form-content {
+    display                             : inline-block;
+    text-align                          : left;
+}
+
+.form-wrapper .form-menu-content {
+    text-align                          : left;
+    max-width                           : 300px;
+    margin-left                         : auto;
+    margin-right                        : auto;
+}
+
+.form-wrapper .form-content .form-block select {
+    width                               : 200px;
+    height                              : 32px;
+    -webkit-border-radius               : 0px;
+    border-radius                       : 0px;
+    padding                             : 4px;
+    margin-right                        : 40px;
+}
+
+.form-wrapper .form-content .form-block-ex input[type=password],
+.form-wrapper .form-content .form-block-ex input[type=text],
+.form-wrapper .form-content .form-block input[type=password],
+.form-wrapper .form-content .form-block input[type=text] {
+    width                               : 200px;
+    height                              : 32px;
+    padding                             : 4px;
+}
+
+.form-wrapper .form-content .form-block input[type=number] {
+    width                               : 50px;
+    height                              : 32px;
+    padding                             : 4px;
+}
+
+.form-block-ex {
+    margin                          : 15px 0px 0px 5px;
+}
+
+
+.button-wrapper-left,
+.form-wrapper .form-content .button-block-left,
+.form-wrapper .form-content .button-block {
+    margin-top                          : 20px;
+}
+
+.button-wrapper-left {
+    text-align                          : left;
+    margin-left                         : -10px;
+}
+
+.form-wrapper .form-content .form-block label {
+    display                             : inline-block;
+    text-align                          : right;
+    padding-right                       : 10px;
+    margin-right                        : 0px;
+}
+
+.form-wrapper .form-content .form-block label  {
+    width                               : 130px;
+}
+
+.form-wrapper .form-content .form-block-ex,
+.form-wrapper .form-content .form-block {
+    margin-top                          : 5px;
+}
+
+.forgotten-password {
+    float                               : right;
+    margin-top                          : 10px;
+}
+
+.loginHR {
+    border-top                          : 1px solid black;
+    margin-top                          : 10px;
+}
+
+.login-block {
+    width                               : 75%;
+    float                               : left;
+    padding                             : 20px 30px;
+}
+
+.login-blockX {
+    width                               : 50%;
+    float                               : left;
+    padding                             : 25px 25px 25px 0px;
+}
+
+.login-blockY {
+    padding                             : 25px 0px 25px 50px;
+    width                               : 50%;
+    float                               : left;
+}
+
+
+.ajax {
+    position                            : relative;
+    display                             : inline-block;
+}
+
+.ajax-not-in-use {
+    position                            : absolute;
+    display                             : none;
+}
+
+.ajax-communicating {
+    position                            : absolute;
+    display                             : inline;
+    left                                : 10px;
+    top                                 : -10px;
+}
+
+.SCORM-info {
+    background-color                    : #CCE5FF;
+    width                               : 100%;
+    margin                              : 0px 0px;
+    padding                             : 20px;
+    -webkit-box-sizing                  : border-box;
+    -moz-box-sizing                     : border-box;
+    box-sizing                          : border-box;
+}
+
+.batchTestTable {
+    border-collapse                     : collapse;
+    width                               : 100%;
+    margin-bottom                       : 10px;
+}
+
+.batchTestTable tr td {
+    border                              : solid 1px black;
+    padding                             : 10px;
+}
+
+tr.batchResultRow {
+    font-size                           : 12px;
+}
+
+.batchTestCMIDataTypeHeader {
+    background-color                    : #ccffFF;
+    font-size                           : 14px;
+    font-weight                         : bold;
+}
+
+.batchTestCMIDataTypeHeader4Col {
+    background-color                    : #cceeee;
+    font-size                           : 12px;
+}
+
+.renderDataTypeTestHeader3Col {
+    background-color                    : #cceeee;
+    font-size                           : 12px;
+}
+
+.blankRow  td {
+    height                              : 10px;
+    margin                              : 0px;
+    padding                             : 0px !important;
+    border                              : none !important;
+}
+
+.reportBlock {
+    background-color                    : #FFFFFF;
+    width                               : 100%;
+    padding                             : 0px;
+    margin-bottom                       : 10px;
+    border                              : 1px solid black;
+}
+
+.testFailedTitle {
+    background-color                    : #FFCCCC;
+    padding                             : 10px;
+}
+
+.reportErrorForTable {
+    border-collapse                     : collapse;
+    border                              : solid 1px black;
+    width                               : 100%;
+}
+
+.reportErrorForTable .header-row {
+    width                               : 50%;
+    border                              : solid 1px black;
+    padding                             : 10px;
+}
+
+.reportErrorForTable tr td {
+    border                              : solid 1px black;
+    padding                             : 10px;
+}
+
+.testSucceedTitle {
+    background-color                    : #CCFFCC;
+    padding                             : 10px;
+}
+
+.reportBlockPadding {
+    padding                             : 10px;
+}
+
+.yellow-info-box {
+    border                              : solid 1px #aaaaaa;
+    background-color                    : #ffffcc;
+    padding                             : 10px;
+    margin-bottom                       : 10px;
+}
+
+.SCORMTRA-treeviewAlpha,
+.SCORMTRA-treeview {
+    padding                             : 0px;
+    margin                              : 0px 0px;
+    margin-bottom                       : 62px;
+    font-family                         : Tahoma, Verdana, Segoe, sans-serif
+}
+
+.SCORMRTA-logSuccess legend {
+    background-color                    : #ccFFcc;
+    border                              : solid 1px #446644;
+}
+
+.SCORMRTA-logError legend {
+    background-color                    : #FFcccc;
+    border                              : solid 1px #664444;
+}
+
+.SCORMRTA-logSuccess legend,
+.SCORMRTA-logError legend {
+    padding                             : 5px 20px;
+    border-radius                       : 5px;
+}
+
+.SCORMRTA-logSuccess,
+.SCORMRTA-logError {
+    border-radius                       : 5px;
+    -webkit-box-shadow                  : inset 0 0 6px rgba(0,0,0,0.5);
+    padding                             : 10px;
+    margin                              : 5px 0px;
+}
+
+.SCORMRTA-TreeViewAlpha ul,
+.SCORMRTA-TreeView ul {
+    padding                             : 0px 0px 0px 30px !important;
+    position                            : relative;
+}
+
+.SCORMRTA-TreeViewAlpha,
+.SCORMRTA-TreeView {
+    -webkit-box-sizing                  : border-box;
+    -moz-box-sizing                     : border-box;
+    box-sizing                          : border-box;
+    font-size                           : 13px;
+    list-style-type                     : none;
+    display                             : inline-block;
+    text-decoration                     : none;
+    padding                             : 2px;
+    margin                              : 0px;
+    position                            : relative;
+}
+
+.SCORMRTA-TreeViewAlpha li,
+.SCORMRTA-TreeView li {
+    position                            : relative;
+}
+
+
+.SCORMRTA-TreeViewAlpha li::before, .SCORMRTA-Tr,
+.SCORMRTA-TreeView li::before, .SCORMRTA-TreeView li::after {
+    content                             : "";
+    position                            : absolute;
+    left                                : -12px;
+}
+
+.SCORMRTA-TreeViewAlpha:not(.SCORMRTA-root) li::before,
+.SCORMRTA-TreeView:not(.SCORMRTA-root) li::before {
+    border-top                          : 1px solid #000;
+    top                                 : 16px;
+    width                               : 13px;
+    height                              : 0;
+}
+
+.SCORMRTA-TreeViewAlpha:not(.SCORMRTA-root) li::after,
+.SCORMRTA-TreeView:not(.SCORMRTA-root) li::after {
+    border-left                         : 1px solid #000;
+    height                              : 102%;
+    width                               : 0px;
+    top                                 : -2px;
+}
+
+.SCORMRTA-TreeViewAlpha ul > li:last-child::after,
+.SCORMRTA-TreeView ul > li:last-child::after {
+    height                              : 19px !important;
+}
+
+.SCORMRTA-TreeViewAlpha li,
+.SCORMRTA-TreeView li {
+    margin-bottom                       : 1px;
+    margin-top                          : 1px;
+}
+
+.SCORMRTA-TreeViewAlpha li div div,
+.SCORMRTA-TreeView li div div {
+    display                             : inline-block;
+    border                              : solid 1px #AAAADD;
+    overflow                            : hidden;
+    padding                             : 5px;
+    height                              : 32px;
+    line-height                         : 20px;
+    margin-bottom                       : -4px;
+}
+
+.SCORMRTA-TreeViewAlpha li div div.SCORMRTA-TreeViewReadWriteInfoReadWrite,
+.SCORMRTA-TreeView li div div.SCORMRTA-TreeViewReadWriteInfoReadWrite {
+    line-height                         : 10px;
+}
+
+.SCORMRTA-TreeViewAlpha li div div.SCORMRTA-TreeViewReadWriteInfo
+.SCORMRTA-TreeView li div div.SCORMRTA-TreeViewReadWriteInfo {
+    line-height                         : 20px;
+}
+
+
+.SCORMRTA-TreeViewAlpha li div div.SCORMRTA-TreeViewDataTypeInfo,
+.SCORMRTA-TreeView li div div.SCORMRTA-TreeViewDataTypeInfo {
+    width                               : 200px;
+}
+
+.SCORMRTA-TreeView .SCORMRTA-TreeViewDataTypeInfoSplitA {
+    background-color                    : #CCFFCC;
+}
+
+.SCORMRTA-TreeViewAlpha .SCORMRTA-TreeViewDataTypeInfoSplitA {
+    background-color                    : rgba(204, 255, 204, 0.25);
+}
+
+.SCORMRTA-TreeViewAlpha .SCORMRTA-TreeViewDataTypeInfoSplitA,
+.SCORMRTA-TreeView .SCORMRTA-TreeViewDataTypeInfoSplitA {
+    margin-right                        : 2px;
+}
+
+.SCORMRTA-TreeView li div div.SCORMRTA-TreeViewDataTypeInfo {
+    background-color                    : #CCFFCC;
+}
+
+.SCORMRTA-TreeViewAlpha li div div.SCORMRTA-TreeViewDataTypeInfo {
+    background-color                    : rgba(204, 255, 204, 0.25);
+}
+
+.SCORMRTA-TreeView .SCORMRTA-TreeViewDataTypeInfoSplitB {
+    background-color                    : #E5FFCC;
+}
+
+.SCORMRTA-TreeViewAlpha .SCORMRTA-TreeViewDataTypeInfoSplitB {
+    background-color                    :rgba(229, 255, 204, 0.25);
+}
+
+.SCORMRTA-TreeView .SCORMRTA-TreeViewDataTypeInfoSplitB {
+    margin-right                        : 2px;
+    text-align                          : center;
+}
+
+.SCORMRTA-TreeViewDataTypeInfoSplitA,
+.SCORMRTA-TreeViewDataTypeInfoSplitB {
+    width                               : 99px;
+    
+}
+
+.SCORMRTA-TreeViewRootAlpha,
+.SCORMRTA-TreeViewAlpha .SCORMRTA-TreeViewRootAlpha {
+    background-color:rgba(229, 204, 255, 0.25);
+}
+
+.SCORMRTA-TreeView .SCORMRTA-TreeViewRoot {
+    background-color                    :#E5CCFF;
+}
+
+.SCORMRTA-TreeViewRootAlpha,
+.SCORMRTA-TreeViewAlpha .SCORMRTA-TreeViewRootAlpha,
+.SCORMRTA-TreeView .SCORMRTA-TreeViewRoot {
+    box-sizing                          : border-box;
+    width                               : 99.7%;
+    margin-right                        : 2px !important;
+}
+
+.SCORMRTA-TreeViewAlpha li div div.SCORMRTA-TreeViewReadWriteInfoReadWrite,
+.SCORMRTA-TreeViewAlpha li div div.SCORMRTA-TreeViewReadWriteInfo {
+    background-color                    :rgba(204, 255, 229, 0.25);
+}
+
+
+.SCORMRTA-TreeView li div div.SCORMRTA-TreeViewReadWriteInfoReadWrite,
+.SCORMRTA-TreeView li div div.SCORMRTA-TreeViewReadWriteInfo {
+    background-color                    :#CCFFE5;
+}
+
+.SCORMRTA-TreeViewAlpha li div div.SCORMRTA-TreeViewReadWriteInfoReadWrite,
+.SCORMRTA-TreeViewAlpha li div div.SCORMRTA-TreeViewReadWriteInfo {
+    background-color                    :rgba(204, 255, 229, 0.25);
+}
+
+.SCORMRTA-TreeViewAlpha li div div.SCORMRTA-TreeViewReadWriteInfoReadWrite,
+.SCORMRTA-TreeViewAlpha li div div.SCORMRTA-TreeViewReadWriteInfo,
+.SCORMRTA-TreeView li div div.SCORMRTA-TreeViewReadWriteInfoReadWrite,
+.SCORMRTA-TreeView li div div.SCORMRTA-TreeViewReadWriteInfo {
+    margin-right                        : 2px;
+    width                               : 40px;
+    font-size                           : 10px;
+    text-align                          : center;
+}
+
+.SCORMRTA-TreeViewDataTypeInfoSplitA,
+.SCORMRTA-TreeViewDataTypeInfoSplitB,
+.SCORMRTA-TreeView li div div.SCORMRTA-TreeViewDataTypeInfo {
+    margin-right                        : 2px;
+    
+}
+
+.SCORMRTA-logInfoTable {
+    width                               : 100%;
+    border-radius                       : 5px;
+    -webkit-box-shadow                  : inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.SCORMRTA-logInfoTable tr {
+    border-radius                       : 5px;
+    -webkit-box-shadow                  : inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.SCORMRTA-logInfoTable td {
+    padding                             : 10px;
+}
+
+.SCORMRTA-expandCollapseWidget {
+    display                             : inline-block  !important;
+    margin                              : 2px 10px -4px 2px;
+    width                               : 17px !important;
+    height                              : 17px !important;
+    border                              : solid black 1px !important;
+}
+
+.SCORMRTA-expandCollapseWidgetLineAcross {
+    position                            : absolute !important;
+    border-left                         : none !important;
+    border-right                        : none !important;
+    border-bottom                       : none !important;
+    border-top                          : solid 1px black !important;
+    height                              : 1px !important;
+    width                               : 9px !important;
+    left                                : 12px;
+    top                                 : 16px;
+    line-height                         : 1px !important;
+}
+
+.SCORMRTA-expandCollapseWidgetLineUpDown {
+    position                            : absolute !important;
+    border-left                         : solid 1px black !important;
+    border-right                        : none !important;
+    border-bottom                       : none !important;
+    border-top                          : none !important;
+    width                               : 1px !important;
+    height                              : 9px !important;
+    line-height                         : 10px !important;
+    left                                : 16px;
+    top                                 : 12px;
+}
+
+.SCORMRTA-CMIDataScrollWindowDisabled,
+.SCORMRTA-LMSLoggingScrollWindowDisabled {
+    text-align                          : center;
+    line-height                         : 550px;
+}
+
+
+.SCORMRTA-LMSLoggingScrollWindowDisabled::-webkit-scrollbar,
+.SCORMRTA-LMSLoggingScrollWindowEnabled::-webkit-scrollbar,
+.SCORMRTA-CMIDataScrollWindow::-webkit-scrollbar {
+    width                               : 1em;
+}
+
+.SCORMRTA-LMSLoggingScrollWindowDisabled::-webkit-scrollbar-track,
+.SCORMRTA-LMSLoggingScrollWindowEnabled::-webkit-scrollbar-track,
+.SCORMRTA-CMIDataScrollWindow::-webkit-scrollbar-track {
+    -webkit-box-shadow                  : inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.SCORMRTA-LMSLoggingScrollWindowDisabled::-webkit-scrollbar-thumb,
+.SCORMRTA-LMSLoggingScrollWindowEnabled::-webkit-scrollbar-thumb,
+.SCORMRTA-CMIDataScrollWindow::-webkit-scrollbar-thumb {
+    background-color                    : #888888;
+    outline                             : 1px solid slategrey;
+    -webkit-box-shadow                  : inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+
+.SCORMRTA-TreeView .SCORMRTA-TreeViewValue {
+    background-color                    :#CCFFFF;
+}
+
+.SCORMRTA-TreeViewAlpha .SCORMRTA-TreeViewValue {
+    background-color                    :rgba(204,255, 255, 0.25);
+}
+
+.SCORMRTA-TreeViewAlpha {
+    color : #777777;
+}
+
+.SCORMRTA-TreeViewAlpha .SCORMRTA-TreeViewValue,
+.SCORMRTA-TreeView .SCORMRTA-TreeViewValue {
+    margin-right                        : 2px;
+    width                               : 150px;
+    white-space                         : nowrap;
+    overflow                            : hidden;
+    text-overflow                       : ellipsis;
+}
+
+
+.SCORMRTA-TreeView .SCORMRTA-TreeViewCmiData {
+    background-color                    : #CCE5FF;
+}
+
+.SCORMRTA-TreeViewAlpha .SCORMRTA-TreeViewCmiData {
+    background-color                    : rgba(204, 229, 255, 0.25);
+}
+
+.SCORMRTA-TreeViewAlpha .SCORMRTA-TreeViewCmiData,
+.SCORMRTA-TreeView .SCORMRTA-TreeViewCmiData {
+    margin-right                        : 2px;
+}
+
+.SCORMRTA-TreeViewTinyInfoFont {
+    font-size                           : 11px;
+    color                               : black;
+}
+
+.SCORMRTA-TreeViewAlpha  ul li div.SCORMRTA-TreeViewCmiData,
+.SCORMRTA-TreeView ul li div.SCORMRTA-TreeViewCmiData {
+    width                               : 400px;
+}
+
+.SCORMRTA-TreeViewAlpha ul li li div.SCORMRTA-TreeViewCmiData,
+.SCORMRTA-TreeView ul li li div.SCORMRTA-TreeViewCmiData {
+    width                               : 370px !important;
+}
+
+.SCORMRTA-TreeViewAlpha ul li li li div.SCORMRTA-TreeViewCmiData,
+.SCORMRTA-TreeView ul li li li div.SCORMRTA-TreeViewCmiData {
+    width                               : 340px !important;
+}
+
+.SCORMRTA-TreeViewAlpha  ul li li li li div.SCORMRTA-TreeViewCmiData,
+.SCORMRTA-TreeView ul li li li li div.SCORMRTA-TreeViewCmiData {
+    width                               : 310px !important;
+}
+
+.SCORMRTA-TreeViewAlpha ul li li li li li div.SCORMRTA-TreeViewCmiData,
+.SCORMRTA-TreeView ul li li li li li div.SCORMRTA-TreeViewCmiData {
+    width                               : 280px !important;
+}
+
+
+.SCORMRTA-button {
+    background                          : #CCE5FF;
+    border                              : 1px solid #000000;
+    display                             : inline-block;
+    margin-left                         : 10px;
+    border-radius                       : 0px;
+    color                               : black;
+    padding                             : 8px 10px;
+    text-align                          : center;
+    font-size                           : 12px;
+    text-decoration                     : none;
+    cursor                              : default;
+}
+
+fieldset.SCORMRTA-fieldset {
+    border-radius                       : 5px;
+    -webkit-box-shadow                  : inset 0 0 6px rgba(0,0,0,0.5);
+    padding                             : 5px 10px;
+    width                               : 100%;
+}
+
+.SCORMRTA-input {
+    height                              : 32px;
+    background-color                    : transparent;
+    width                               : 100%;
+    border                              : none;
+    font-size                           : 16px;
+}
+
+.SCORMRTA-input:focus::-webkit-input-placeholder {
+    color                               : transparent;
+}
+
+.SCORMRTA-input:focus{
+    outline                             : none;
+}
+
+
+.SCORMRTA-CMIDataScrollWindow {
+    display                             : inline-block;
+    max-width                           : 848px;
+    margin-top                          : 0px;
+    width                               : 100%;
+    max-height                          : 565px;
+    height                              : 565px;
+    overflow-y                          : scroll;
+}
+
+.SCORMRTA-LMSLoggingScrollWindowEnabled,
+.SCORMRTA-LMSLoggingScrollWindowDisabled {
+    border-left                         : solid 1px #888888;
+    width                               : 100%;
+    display                             : inline-block;
+    overflow-y                          : scroll;
+    max-height                          : 565px;
+    height                              : 565px;
+    padding                             : 5px 10px;
+}
+
+.SCORMRTA-fixedCommandLine {
+    width                               : 100%px;
+    overflow                            : hidden;
+    height                              : 100px;
+    background-color                    : #CCCCFF;
+    padding                             : 5px 10px 5px 10px;
+}
+
+
+.WINDOW-CommandLine {
+    position                            : absolute;
+    top                                 : 50px;
+    left                                : 50px;
+    width                               : 1024px;
+    height                              : 150px;
+}
+
+.WINDOW-CMIData {
+    position                            : absolute;
+    top                                 : 100px;
+    left                                : 100px;
+    width                               : 850px;
+    height                              : 600px;
+}
+
+.WINDOW-LMSLog {
+    position                            : absolute;
+    top                                 : 100px;
+    left                                : 800px;
+    width                               : 650px;
+    height                              : 600px;
+}
+
+
+.WINDOW {
+    -webkit-box-shadow                  : 0px 0px 15px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow                     : 0px 0px 15px 3px rgba(0,0,0,0.75);
+    box-shadow                          : 0px 0px 15px 3px rgba(0,0,0,0.75);
+    background-color                    :#CCCCFF;
+    border                              : solid 1px black;
+    z-index                             : 9999;
+    overflow                            : hidden;
+}
+
+.WINDOW .WINDOWTitle {
+    padding                             : 5px;
+    height                              : 35px;
+    line-height                         : 25px;
+    width                               : 100%;
+    background-color                    : #eeffee;
+    text-align                          : center;
+}
+
+.WINDOW .WINDOWTitle div {
+    width                               : 25px;
+    height                              : 25px;
+    float                               : right;
+    border                              : solid 1px black;
+}
+
+.WINDOWFooter {
+    height                              : 0px;
+    max-height                          : 0px;
+    width                               : 100%;
+    background-color                    : #eeffee;
+    text-align                          : center;
+    position                            : absolute;
+    bottom                              : 0px;
+}
+
+.tableBottom,
+.tableRow,
+.tableHeader {
+    width                               : 100%;
+    font-size                           : 0;
+}
+
+.tableRow div div,
+.tableBottom div div {
+    padding                             : 0px;
+    border-bottom                       : none;
+}
+
+.tableBottom div {
+    display                             : inline-block;
+    padding                             : 4px;
+    font-size                           : 14px;
+    text-align                          : center;
+    height                              : 30px;
+}
+
+.tableRow div {
+    display                             : inline-block;
+    border-bottom                       : 1px solid #888888;
+    padding                             : 5px;
+    font-size                           : 14px;
+    text-align                          : center;
+    height                              : 30px;
+}
+
+.tableHeader div {
+    font-weight                         : bold;
+    text-align                          : center;
+    display                             : inline-block;
+    border-bottom                       : 1px solid #888888;
+    padding                             : 5px;
+    font-size                           : 14px;
+    
+}
+
+.trainingHubTable {
+    display                             : block-inline;
+    box-sizing                          : border-box !important;
+}
+
+.trainingHubTable .tableRow .h-1-noScore,
+.trainingHubTable .tableBottom .h-1-noScore,
+.trainingHubTable .tableBottom .h-1,
+.trainingHubTable .tableRow .h-1 {
+    text-align                          : left;
+}
+
+.trainingHubTable .h-1 {
+    width                               : 34%;
+    border-right                        : 1px solid #888888;
+}
+
+.trainingHubTable .h-1-noScore {
+    width                               : 44%;
+    border-right                        : 1px solid #888888;
+}
+
+.trainingHubTable .h-2 {
+    width                               : 10%;
+    border-right                        : 1px solid #888888;
+}
+
+.trainingHubTable .h-3 {
+    width                               : 14%;
+    border-right                        : 1px solid #888888;
+}
+
+.trainingHubTable .h-4 {
+    width                               : 14%;
+    border-right                        : 1px solid #888888;
+}
+
+.trainingHubTable .h-5 {
+    width                               : 14%;
+    border-right                        : 1px solid #888888;
+}
+
+.trainingHubTable .h-6 {
+    width                               : 14%;
+}
+
+.tab-1 .h-6,
+.trainingHubTable .h-6 div {
+    color                               :blue;
+    text-decoration                     : underline;
+    cursor                              : pointer;
+}
+
+.userReportTable,
+.moduleReportTable {
+    display                             : block-inline;
+    box-sizing                          : border-box !important;
+    margin                              : 0px 0px;
+}
+
+.userReportTable .tableHeader div,
+.moduleReportTable .tableHeader div {
+    color                               :blue;
+    text-decoration                     : underline;
+    font-weight                         : normal;
+    cursor                              : pointer;
+}
+
+.trainingHubTable div div,
+.userReportTable div div,
+.moduleReportTable div div {
+    overflow                            : hidden;
+    white-space                         : nowrap;
+    text-overflow                       : ellipsis;
+    vertical-align                      : bottom;
+}
+
+.userReportTable .tableHeader div,
+.userReportTable .tableBottom .h-1,
+.userReportTable .tableRow .h-1,
+.moduleReportTable .tableHeader div,
+.moduleReportTable .tableBottom .h-1,
+.moduleReportTable .tableBottom .h-4,
+.moduleReportTable .tableRow .h-1,
+.moduleReportTable .tableRow .h-4 {
+    text-align                          : left !important;
+}
+
+.userReportTable .tableHeader h-4,
+.userReportTable .tableHeader h-5,
+.userReportTable .tableHeader h-6 {
+    text-align                          : center !important;
+}
+
+
+.userReportTable .tableHeader .h-2,
+.userReportTable .tableHeader .h-3,
+.userReportTable .tableBottom .h-2,
+.userReportTable .tableBottom .h-3,
+.userReportTable .tableRow .h-2,
+.userReportTable .tableRow .h-3 {
+    text-align                          : center !important;
+}
+
+.moduleReportTable .h-1 {
+    width                               : 25%;
+    border-right                        : 1px solid #888888;
+}
+
+.moduleReportTable .h-4 {
+    width                               : 47%;
+    border-right                        : 1px solid #888888;
+}
+
+.moduleReportTable .h-4-wide {
+    width                               : 55% !important;
+}
+
+.moduleReportTable .h-5 {
+    width                               : 8%;
+    border-right                        : 1px solid #888888;
+}
+
+.moduleReportTable .h-6 {
+    width                               : 10%;
+    border-right                        : 1px solid #888888;
+}
+
+.moduleReportTable .h-7 {
+    width                               : 10%;
+}
+
+.userReportTable {
+    display                             : block-inline;
+    box-sizing                          : border-box !important;
+    margin                              : 0px 0px;
+}
+
+.userReportTable .h-1 {
+    width                               : 50%;
+    border-right                        : 1px solid #888888;
+}
+
+.userReportTable .h-2 {
+    width                               : 25%;
+    border-right                        : 1px solid #888888;
+}
+
+.userReportTable .h-3 {
+    width                               : 25%;
+}
+
+
+.nav-selected {
+    background-color                    :rgba(255,255,0,0.80) !important;
+}
+
+.nav-disabled  {
+    background-color                    :rgba(255,255,255,0.20) !important;
+    color                               :rgba(0,0,0,0.20) !important;
+}
+
+.navigatePage,
+.previousPage,
+.nextPage {
+    display                             : inline;
+    padding                             : 10px 8px !important;
+}
+
+.pagerLink {
+    text-decoration                     : none;
+    color                               : black;
+}
+
+.order-down {
+    background-image                    : url(images/orderUp.png);
+    background-position                 : right 5px top 50%;
+    background-repeat                   : no-repeat;
+}
+
+.order-up {
+    background-image                    : url(images/orderDown.png);
+    background-position                 : right 5px top 50%;
+    background-repeat                   : no-repeat;
+}
+
+.checkbox-image {
+    display                             : none !important;
+    visibility                          : hidden;
+}
+
+.checkbox-image:checked + label {
+    background-image                    : url(images/checkbox-on.png) !important;
+    background-position                 : left 0px top 50%;
+    background-repeat                   : no-repeat;
+}
+
+.checkbox-label {
+    background-image                     : url(images/checkbox-off.png);
+    background-position                 : left 0px top 50%;
+    background-repeat                   : no-repeat;
+}
+
+
+.checkbox-label {
+    text-align                          : left !important;
+    display                             : block !important;
+    width                               : 100% !important;
+    padding                             : 10px 30px !important;
+}
+
+
+
+.SCO-info-table,
+.manifest-info-table {
+    border-top                          : solid black 1px;
+    border-left                         : solid black 1px;
+    border-right                        : solid black 1px;
+}
+
+.manifest-info-table-row-header {
+    width                               : 100%;
+    font-size                           : 0;
+}
+
+.manifest-info-table-td-header {
+    border-bottom                       : solid black 1px;
+    padding                             : 5px;
+    font-size                           : 16px;
+    background-color                    : rgba(255, 220, 220, 0.5);
+}
+
+.manifest-info-table-row {
+    width                               : 100%;
+    font-size                           : 0;
+}
+
+.manifest-info-table-td-element {
+    border-bottom                       : solid black 1px;
+    border-right                        : solid black 1px;
+    padding                             : 5px;
+    width                               : 50%;
+    display                             : inline-block;
+    font-size                           : 16px;
+    background-color                    : rgba(220, 220, 255, 0.5);
+    text-align                          : right;
+    white-space                         : nowrap;
+    overflow                            : hidden;
+    text-overflow                       : ellipsis;
+    vertical-align                      : bottom;
+}
+
+.manifest-info-table-td-value {
+    border-bottom                       : solid black 1px;
+    padding                             : 5px;
+    background-color                    : rgba(220, 255, 220, 0.5);
+    width                               : 50%;
+    display                             : inline-block;
+    font-size                           : 16px;
+    white-space                         : nowrap;
+    overflow                            : hidden;
+    text-overflow                       : ellipsis;
+    vertical-align                      : bottom;
+}
+
+.manifest-info-table {
+    border-top                          : solid black 1px;
+    border-left                         : solid black 1px;
+    border-right                        : solid black 1px;
+}
+
+.manifest-info-table-row-header {
+    width                               : 100%;
+    font-size                           : 0;
+}
+
+.SCO-info-table-td-header {
+    border-bottom                       : solid black 1px;
+    padding                             : 5px;
+    font-size                           : 16px;
+    background-color                    : rgba(255, 220, 220, 0.5);
+}
+
+.SCO-info-table-row {
+    width                               : 100%;
+    font-size                           : 0;
+}
+
+.SCO-info-table-td-element {
+    border-bottom                       : solid black 1px;
+    padding                             : 5px;
+    width                               : 100%;
+    display                             : inline-block;
+    font-size                           : 16px;
+    background-color                    : rgba(220, 220, 255, 0.5);
+    text-align                          : left;
+    white-space                         : nowrap;
+    overflow-x                          : hidden;
+    overflow-y                          : scroll;
+    height                              : 145px;
+    vertical-align                      : bottom;
+}
+
+
+.hint-bubble {
+    position                            : absolute;
+    padding                             : 5px;
+    left                                : 353px;
+    margin                              : 1em 0 3em;
+    border                              : 2px solid #000000;
+    color                               : #333;
+    background: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align:center;
+    height:32px;
+}
+
+
+.progress {
+    position                            : relative;
+    display                             : block;
+    width                               : 100%;
+    border                              : 1px solid rgba(0,0,0,0.25);
+    -webkit-border-radius               : 10px;
+    -moz-border-radius                  : 10px;
+    border-radius                       : 10px;
+    height                              : 28px;
+    background-color                    : #ffffff;
+    margin-bottom                       : 2px;
+}
+
+.bar {
+    position                            : absolute;
+    background-color                    : #ddffdd;
+    -webkit-border-radius               : 10px;
+    -moz-border-radius                  : 10px;
+    border-radius                       : 10px;
+    height                              : 100%;
+}
+
+.percent {
+    position                            : absolute;
+    display                             : inline-block;
+    text-align                          : center;
+    width                               : 100%;
+    height                              : 24px;
+    line-height                         : 24px;
+    top                                 : 0px;
+}
+
+.password-hint {
+    position                            : absolute;
+    width                               : 200px;
+    padding                             : 5px;
+    border                              : 2px solid #000000;
+    -webkit-border-radius               : 10px;
+    -moz-border-radius                  : 10px;
+    border-radius                       : 10px;
+    left                                : 375px;
+    background-color                    : #ffffff;
+    -webkit-box-shadow                  : 0px 0px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow                     : 0px 0px 17px 0px rgba(0,0,0,0.75);
+    box-shadow                          : 0px 0px 17px 0px rgba(0,0,0,0.75);
+}
+
+.password-info {
+    width                               : 100%;
+    text-align                          : center;
+    padding                             : 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance                  : none;
+    margin                              : 0;
+}
+
+.fileDropZone {
+    border                              : dashed black 2px;
+    border-radius                       : 25px;
+    padding                             : 10px;
+    margin                              : 10px 0px;
+    text-align                          : center;
+}
+
+.box {
+    width                               : 40%;
+    margin                              : 0 auto;
+    background                          : rgba(255,255,255,0.2);
+    padding                             : 35px;
+    border                              : 2px solid #fff;
+    border-radius                       : 20px/50px;
+    background-clip                     : padding-box;
+    text-align                          : center;
+}
+
+.overlay {
+    position                            : fixed;
+    top                                 : 0;
+    bottom                              : 0;
+    left                                : 0;
+    right                               : 0;
+    background                          : rgba(0, 0, 0, 0.7);
+    transition                          : opacity 500ms;
+    visibility                          : hidden;
+    opacity                             : 0;
+}
+
+.overlay:target {
+    visibility                          : visible;
+    opacity                             : 1;
+}
+
+.popup {
+    margin                              : 70px auto;
+    padding                             : 20px;
+    background                          : #fff;
+    border-radius                       : 5px;
+    width                               : 30%;
+    position                            : relative;
+    transition                          : all 5s ease-in-out;
+}
+
+.popup .content {
+    max-height                          : 30%;
+    overflow                            : auto;
+}
+
+.page-admin-settings .labelPassword {
+    width                               : 80px !important;
+    display                             : inline-block !important;
+}
+
+.page-user-registration,
+.page-training-hub,
+.page-edit-user-details,
+.page-edit-user,
+.page-user-reports,
+.page-module-reports,
+.page-set-password,
+.page-admin-settings,
+.page-course-delete,
+.page-course-list-view,
+.page-course-view,
+.page-admin-main-menu {
+    padding-left                        : 50px;
+    padding-right                       : 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .box{
+        width                           : 70%;
+    }
+    
+    .popup{
+        width                           : 70%;
+    }
+}
+
+
+.page-user-login .form-wrapper .form-content .form-block label {
+    width                               : 60px;
+}
+
+.page-confirm-email-address .form-wrapper .form-content .form-block label {
+    width                               : 90px;
+}
+
+.page-user-registration .form-wrapper .form-content .form-block label {
+    width                               : 90px;
+}
+
+.page-edit-user-details .form-wrapper .form-content .form-block label {
+    width                               : 80px;
+}
+
+
+.standard-padding {
+    width                               : 100%;
+    padding                             : 0px 50px;
+}
+
+@media screen and (max-width: 1040px) {
+    body {
+        margin                          : 10px 10px !important;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .desktop-table {
+        display                         : block;
+    }
+    
+    .mobile-table {
+        display                         : none;
+    }
+    
+    .mobile-table-inline {
+        display                         : none;
+        visibility                      : hidden;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .login-blockX {
+        padding                         : 25px 0px 0px 0px;
+        margin                          : 0px 0px -25px 0px;
+    }
+    
+    .login-blockY {
+        padding                         : 25px 0px 0px 5px;
+    }
+    
+    .login-blockX,
+    .login-blockY,
+    .login-block {
+        float                           : clear;
+        width                           : 100%;
+    }
+    
+    .page-admin-settings #password-length {
+        margin-top                      : 10px;
+    }
+    
+    .desktop-table {
+        display                         : none;
+    }
+    
+    .mobile-table {
+        display                         : block;
+    }
+    
+    .mobile-table-inline {
+        display                         : inline-block;
+        visibility                      : visible;
+    }
+    
+    .prompt-user-confirm-email {
+        width                           : auto;
+    }
+}
+
+.register-block {
+    text-align                          : left;
+    margin-left                         : 8%;
+}
+
+@media screen and (max-width: 500px) {
+    .login-block {
+        padding                         : 25px 20px;
+    }
+    
+    .standard-padding {
+        padding                         : 0px 20px;
+    }
+
+    .hyper-jump-page {
+        right                           : 20px;
+    }
+    
+    .page-admin-main-menu {
+        padding-left                    : 20px;
+        padding-right                   : 20px;
+    }
+    
+    .page-course-view .button-wrapper-left div,
+    .page-course-view .button-wrapper-left input {
+        text-align                      : center;
+        width                           : 100%;
+        margin-top                      : 10px;
+    }
+    
+    .page-course-view .button-wrapper-left {
+        margin-left                     : -5px;
+        margin-right                    : 5px;
+        margin-top                      : 0px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .group {
+        display                         : block !important;
+    }
+    
+    .register-block {
+        margin-left                     : 0px !important;
+    }
+    
+    .login-blockY {
+        padding                         : 25px 0px 0px 0px;
+    }
+    
+    .button-wrapper-left input,
+    .button-wrapper-left div {
+        width                           : 100% !important;
+        text-align                      : center;
+    }
+    
+    .button-wrapper-left .forgotten-password {
+        text-align                      : right;
+    }
+    
+    #find-text {
+        width                           : calc(100% - 32px) !important;
+    }
+    
+    
+    .form-wrapper .form-content,
+    .form-wrapper .form-content .form-block,
+    .form-wrapper .form-content .form-block select,
+    .form-wrapper .form-content .form-block input[type=text] {
+        width                           : 100% !important;
+    }
+    
+    .form-wrapper .form-content .form-block-ex label,
+    .form-wrapper .form-content .form-block label {
+        display                         : block;
+        text-align                      : left;
+        padding-right                   : 0px;
+        margin-right                    : 0px;
+        margin-top                      : 10px;
+        margin-bottom                   : 5px;
+    }
+    
+    .button-wrapper-left {
+        margin-left                     : -5px;
+        margin-right                    : 5px;
+        margin-top                      : 0px;
+    }
+    
+    .button-padding {
+        margin-bottom                   : 50px;
+    }
+    
+    .hyper-jump-page {
+        bottom                          : 20px;
+        right                           : 25px;
+    }
+    
+    .page-user-registration .button-wrapper-left div {
+        text-align                      : center;
+        width                           : 100%;
+    }
+    
+    .button-wrapper-left .gapButton,
+    .page-user-registration .button-wrapper-left input {
+        width                           : 100%;
+        margin-top                      : 10px;
+    }
+    
+    .page-user-registration,
+    .page-training-hub,
+    .page-edit-user-details,
+    .page-edit-user,
+    .page-user-reports,
+    .page-module-reports,
+    .page-set-password,
+    .page-admin-settings,
+    .page-course-list-view,
+    .page-course-delete,
+    .page-course-view,
+    .page-admin-main-menu {
+        padding-left                    : 20px;
+        padding-right                   : 20px;
+    }
+}
+
+.group {
+    display                             : inline-block;
+    margin-top                          : 5px;
+    margin-bottom                       : 5px;
+}
+
+.tab-1 {
+    border                              : black 1px solid;
+    width                               : 100%;
+    text-align                          : center;
+    padding                             : 5px;
+}
+
+.tab-split {
+    border-bottom                       : black 1px solid;
+    border-left                         : black 1px solid;
+    border-right                        : black 1px solid;
+    width                               : 100%;
+    text-align                          : left;
+}
+
+.tab-split div:first-child {
+    border-right                        : 1px solid black;
+    text-align                          : right;
+}
+
+.tab-split div {
+    width                               : 50%;
+    display                             : inline-block;
+    padding                             : 5px;
+}
+
+i.togglePassword {
+    margin-left                         : 10px;
+    margin-top                          : 12px;
+    cursor                              : pointer;
+    position                            : absolute;
+}
+
+.passwordReadOnly {
+    background-color                    : #dddddd;
+    border                              : solid 1px #888888;
+}
