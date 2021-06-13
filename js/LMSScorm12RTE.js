@@ -1050,7 +1050,7 @@ SCORM12RTE.prototype = {
                 return ["true-false", "choice", "fill-in", "matching", "performance", "likert", "sequencing", "numeric"].indexOf(value) != -1;
                 
             case this.VOCABULARY_RESULT:
-                return (this.validateDataType(CMIDecimal, value) || ["correct", "wrong", "unanticipated", "neutral"].indexOf() != -1);
+                return (this.validateDataType(this.CMIDecimal, value) || ["correct", "wrong", "unanticipated", "neutral"].indexOf() != -1);
                 
             case this.VOCABULARY_TIME_LIMIT_ACTION:
                 return ["exit,message", "exit,no message", "continue,message", "continue,no message"].indexOf(value) != -1;
