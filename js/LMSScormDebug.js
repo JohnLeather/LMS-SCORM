@@ -211,29 +211,6 @@ SCORMRTA.prototype = {
     // ---------------------------------------------------------------------------
     //
     // ---------------------------------------------------------------------------
-    wordWrap : function(str) {
-        var sinceLastSpace = 0;
-        var strlen = str.length;
-        var newStr = "";
-        
-        for (var i = 0; i < strlen; i++) {
-            var char = str.charAt(i);
-            if (str == " ") {
-                sinceLastSpace = 0;
-            }
-            
-            newStr += char;
-            if ((sinceLastSpace > 15 && char == ',') || sinceLastSpace > 25) {
-                sinceLastSpace = 0;
-                newStr += "&#8203;"; // zero width space character...
-            }
-            sinceLastSpace++;
-        }
-        return newStr;
-    },
-    // ---------------------------------------------------------------------------
-    //
-    // ---------------------------------------------------------------------------
     logMessage : function(eventType, command, returnValue, error, p1, p2, p3, pArgs, resolution) {
         var logWindow = document.getElementById("SCORMRTA-LMSLog");
         if (logWindow) {
@@ -251,7 +228,7 @@ SCORMRTA.prototype = {
                 html += "<legend style='inline-block'>" + sourceOfEvent + "</legend>";
                 html += "<table class='SCORMRTA-logInfoTable'>";
                 if (eventType == this._EVENT_INTERNAL) {
-                    html += "<tr><td>Command</td><td>" + this.wordWrap(this.internalCommand) + "</td></tr>";
+                    html += "<tr><td>Command</td><td style='overflow:hidden;max-width:500px'>" + this.internalCommand + "</td></tr>";
                 }
                 else {
                     var cmd = "";
@@ -274,10 +251,10 @@ SCORMRTA.prototype = {
                         }
                     }
                     cmd += ");";
-                    html += "<tr><td>Command</td><td>" + this.wordWrap(cmd) + "</td></tr>";
+                    html += "<tr><td>Command</td><td style='overflow:hidden;max-width:500px'>" + cmd + "</td></tr>";
                 }
                 
-                html += "<tr><td>Return value</td><td>" + this.wordWrap(returnValue) + "</td></tr>";
+                html += "<tr><td>Return value</td><td style='overflow:hidden;max-width:500px'>" + returnValue + "</td></tr>";
                 html += "<tr><td>Error</td><td>" + error + " : " + API.LMSGetErrorString(error) + "</td></tr>";
                 if (resolution != null) {
                     html += "<tr><td>Resolution</td><td>" + resolution + "</td></tr>";
