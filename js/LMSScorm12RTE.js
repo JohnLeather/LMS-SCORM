@@ -219,15 +219,14 @@ SCORM12RTE.prototype = {
         //
         // If the SCO set the cmi.core.exit to 'suspend' the LMS should set the cmi.core.entry to resmume on next launching of the SCO
         //
-        this.cmi.core.entry.value = (this.cmi.core.exit.value == 'suspend') ? 'resume' : '';
-        this.cmi.core.exit.value = "";
+        this.cmi.core.entry.value = (this.cmi.core.exit.value == 'suspend') ? 'resume' : '';        
 
         //
         // Page 3-32 cmi.core.exit
         //
         // The SCO should set cmi.core.exit entry to "" (empty) upon the next lanuching of the SCO.
         //
-        this.cmi.core.entry.value = "";
+        this.cmi.core.exit.value = "";
         
         //
         // Page 3-30
